@@ -5,4 +5,5 @@ branches:
     - dev
 
 script : 
+  - npm install -g mocha
   - npm run test
