@@ -2,7 +2,8 @@ language: node_js
 node_js:
   - "node"
 dist: trusty
-
+before_install:
+  - npm install -g mocha
 
 branches:
   only:
