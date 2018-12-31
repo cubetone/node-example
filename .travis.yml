@@ -1,3 +1,11 @@
 language: node_js
+<<<<<<< HEAD
+=======
+branches:
+  only:
+    master
+    dev
+
+>>>>>>> dev
 script : 
   - npm run test
